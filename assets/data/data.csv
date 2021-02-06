@@ -6,7 +6,7 @@ id,abbr,category,clickRate,timeBeforeFirstClick,attractivenessRate,exposureRate,
 5,Drinks,Beverages,0.16,50,0.96,16.8,9.93
 6,Frozen,Frozen Foods,0.16,57.9,0.97,16.8,10
 7,Deli,Deli,0.2,47.9,1.2,16.8,8.71
-8,Alcohols,"Wine, Spirits & Beers",0.15,45.7,0.93,16.8,7.45
+8,Alcohol,"Wine, Spirits & Beers",0.15,45.7,0.93,16.8,7.45
 9,Sweets,"Cookies, Snacks & Candy",0.1,56,0.86,12.4,11.2
 10,Home,"Paper, Cleaning & Home",0.09,64.2,0.79,12.4,13.3
 11,Canned,Canned Goods & Soups,0.09,67.9,0.77,12.4,12.5
