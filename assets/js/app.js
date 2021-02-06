@@ -253,8 +253,8 @@ d3.csv('./assets/data/data.csv').then(function (censusData) {
         .attr('y', 0 - 80)
         .attr('dy', '1em')
         .attr('transform', 'rotate(-90)')
-        .attr('value', 'attractivenessRate')
-        .text('Attractiveness Rate (%)');
+        .attr('value', 'timeBeforeFirstClick')
+        .text('Time Before First Click (s)');
 
     //update the toolTip
     var circlesGroup = updateToolTip(chosenXAxis, chosenYAxis, circlesGroup);
