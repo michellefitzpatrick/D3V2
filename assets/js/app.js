@@ -1,5 +1,5 @@
 // Set up SVG definitions
-let svgWidth = 960;
+let svgWidth = 980;
 let svgHeight = 620;
 
 // set up borders in svg
@@ -185,7 +185,7 @@ d3.csv('./assets/data/data.csv').then(function (censusData) {
         .classed('stateCircle', true)
         .attr('cx', d => xLinearScale(d[chosenXAxis]))
         .attr('cy', d => yLinearScale(d[chosenYAxis]))
-        .attr('r', 18)
+        .attr('r', 20)
         .attr('opacity', '.5');
 
     //append Initial Text
@@ -197,7 +197,7 @@ d3.csv('./assets/data/data.csv').then(function (censusData) {
         .attr('x', d => xLinearScale(d[chosenXAxis]))
         .attr('y', d => yLinearScale(d[chosenYAxis]))
         .attr('dy', 3)
-        .attr('font-size', '10px')
+        .attr('font-size', '9px')
         .text(function (d) { return d.abbr });
 
     //create a group for the x axis labels
