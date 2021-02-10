@@ -105,6 +105,16 @@ function styleX(value, chosenXAxis) {
     }
 }
 
+//function to stylize y-axis values for tooltips
+function styleY(value, chosenYAxis) {
+
+    //style based on variable
+    if (chosenYAxis === 'timeBeforeFirstClick') {
+        return `${value}`;
+    }
+}
+
+
 //funtion for updating circles group
 function updateToolTip(chosenXAxis, chosenYAxis, circlesGroup) {
 
