@@ -112,6 +112,7 @@ function styleY(value, chosenYAxis) {
     if (chosenYAxis === 'timeBeforeFirstClick') {
         return `${value}`;
     }
+    else return `${value}`%;
 }
 
 
@@ -120,7 +121,7 @@ function updateToolTip(chosenXAxis, chosenYAxis, circlesGroup) {
 
     //X labels
     if (chosenXAxis === 'clickRate') {
-        var xLabel = 'Click Rate:';
+        var xLabel = 'Click Rate:v';
     }
 
     //Y labels
